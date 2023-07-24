@@ -1,0 +1,105 @@
+/*
+    fonts
+    font-family: 'Hind', sans-serif; PARAGRAPHS
+    font-family: 'Montserrat', sans-serif; TITLE
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Hind', sans-serif;
+
+}
+
+html{
+    background-color: #FFC75F;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header h1{
+    padding: 20px 0px 0px 0px;
+    font-size: 50px;
+}
+
+.tuto-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 100px;
+}
+
+.tuto-text p{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+.player-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.player-btn button{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: white;
+    transition: background-color 0.4s;
+}
+
+.player-btn button:hover{
+    background-color: #F9F871;
+}
+
+.text-result{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.text-result p{
+    font-size: 30px;
+}
+
+.result{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    height: 300px;
+}
+
+.result p{
+    font-size: 20px;
+}
+
+.result .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+}
+
+footer{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 0;
+}
+

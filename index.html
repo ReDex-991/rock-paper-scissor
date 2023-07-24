@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://png.pngtree.com/png-vector/20191017/ourmid/pngtree-stone-decorative-rock-stacked-pile-vintage-vector-png-image_1807039.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,700;0,800;0,900;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>RPS</title>
+</head>
+<body>
+    <header>
+        <h1>Rock, Paper, Scissor</h1>
+        </b><h2>|Human vs AI|</h2>
+    </header>
+    <main>
+        <div class="tuto-text">
+            <p>choice one!</p>
+        </div>
+        <div class="player-btn">
+
+            <button id="rock" onclick="changeToRock();" value="rock"><img src="./img/rock.png" alt=""></button>
+            <button id="paper" onclick="changeToPaper();" value="paper"><img src="./img/paper.png" alt=""></button>
+            <button id="scissor" onclick="changeToScissor();" value="scissor"><img src="./img/scissor.png" alt=""></button>
+        </div>
+        <div class="text-result">
+            <p id="text-result">???</p>
+        </div>
+        <div class="result">
+            <p>Bot choice:</p>
+            <div class="img">
+                <img src="https://www.freeiconspng.com/thumbs/question-mark-icon/black-question-mark-icon-clip-art-10.png" alt="bot response" id="response">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright © Redex 2023</p>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
