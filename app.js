@@ -6,11 +6,11 @@ function playRound(playerSelection, computerSelection) {
     }
     else if ((playerSelection== "rock") && ( computerSelection == "paper")) {
         img.src = "./img/paper.png";
-        result_text.innerHTML = "You Lose! Paper beats Rock";
+        result_text.innerHTML = "You Lost! Paper beats Rock";
     }
     else if ((playerSelection == "paper") && ( computerSelection == "scissor")) {
         img.src = "./img/scissor.png";
-        result_text.innerHTML = "You Lose! Scissor beats paper";
+        result_text.innerHTML = "You Lost! Scissor beats paper";
     }
     else if ((playerSelection == "paper") && ( computerSelection == "rock")) {
         img.src = "./img/rock.png";
@@ -18,7 +18,7 @@ function playRound(playerSelection, computerSelection) {
     }
     else if ((playerSelection == "scissor") && ( computerSelection == "rock")) {
         img.src = "./img/rock.png";
-        result_text.innerHTML = "You Lose! Rock beats Scissor";
+        result_text.innerHTML = "You Lost! Rock beats Scissor";
     }
     else if ((playerSelection== "scissor") && ( computerSelection == "paper")) {
         img.src = "./img/paper.png";
